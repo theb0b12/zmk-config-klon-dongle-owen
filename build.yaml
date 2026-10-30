@@ -43,12 +43,13 @@ include:
     shield: klon_dongle_left
     snippet: klon-dongle-left-as-peripheral
     artifact-name: klon_dongle_left_as_peripheral
-## dongle with studio
-#  - board: nice_nano_v2
-#    shield: klon_dongle_dongle
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: klon_dongle_dongle_with_studio
+    
+# dongle with studio
+  - board: nice_nano_v2
+    shield: klon_dongle_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: klon_dongle_dongle_with_studio
 
   - board: nice_nano_v2
     shield: klon_dongle_right
