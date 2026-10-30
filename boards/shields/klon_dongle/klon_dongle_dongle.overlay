@@ -1,0 +1,14 @@
+#include "klon_dongle.dtsi"
+
+/ {
+    kscan_dongle: kscan_dongle {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
+
+&physical_layout_klon_dongle {
+    kscan = <&kscan_dongle>;
+};
